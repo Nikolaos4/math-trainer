@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Математический тренажёр на React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Простое и красивое приложение для тренировки устного счёта (сложение чисел от 1 до 100).
 
-## Available Scripts
+## Функционал
+- Автоматическая генерация случайных примеров на сложение
+- Поле для ввода ответа
+- Мгновенная проверка с подсветкой результата
+- Кнопка «Новый пример»
+- Приятный адаптивный дизайн
 
-In the project directory, you can run:
+## Использованные технологии
+- React 18 + хуки (`useState`, `useEffect`)
+- Create React App
+- Чистый CSS без сторонних библиотек
 
-### `npm start`
+## Скриншоты
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Правильный ответ
+![Главный экран](screenshot1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Неправильный ответ (с подсказкой)
+![Правильный ответ](screenshot2.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Выводы по выполненной работе
 
-### `npm run build`
+В рамках контрольной работы было разработано полноценное React-приложение — математический тренажёр для отработки навыков сложения.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В процессе выполнения я:
+- Научился создавать проект с помощью Create React App
+- Освоил работу с функциональными компонентами и хуками (`useState`, `useEffect`)
+- Реализовал управление состоянием приложения (числа, ответ пользователя, результат проверки)
+- Настроил обработку событий (ввод в поле, клики по кнопкам)
+- Сверстал и стилизовал интерфейс без использования сторонних библиотек и UI-фреймворков
+- Организовал проект в Git-репозитории с понятной структурой, подробным README и скриншотами
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Приложение полностью соответствует требованиям задания: демонстрирует работу с компонентами, состоянием, событиями и имеет чистый, читаемый код. Проект готов к запуску любым пользователем командой `npm start`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Работа выполнена самостоятельно с нуля и может быть легко расширена (добавление вычитания, умножения, таймера, таблицы рекордов и т.д.).
 
-### `npm run eject`
+## Как запустить
+```bash
+git clone https://github.com/ТВОЙ_ЛОГИН/math-trainer.git
+cd math-trainer
+npm install
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
